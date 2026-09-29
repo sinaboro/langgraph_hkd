@@ -29,8 +29,8 @@ def load_documents(path):
         d.page_content = text.strip()
         
         # 메타 데이터        
-        d.metadata["filename"]  = os.path.basename
-        d.metadata["page_no"] = d.metadata.get("page", 0) + 1
+        d.metadata["filename"]  = os.path.basename(path)
+        d.metadata["page_no"] = d.metadata.get("page", 0) + 1         
         
     empty_pages = []
         
