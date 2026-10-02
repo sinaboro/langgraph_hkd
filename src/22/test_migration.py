@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore")
 CURRENT_DIR = os.path.dirname(__file__)
 
 # rag.py와 graph.py가 있는 rag_app 폴더 경로입니다.
-RAG_APP_DIR = os.path.join(CURRENT_DIR, "..", "rag_app")
+RAG_APP_DIR = os.path.join(CURRENT_DIR, "..", "15_rag_app")
 
 # Python이 rag_app 폴더의 파일을 찾을 수 있도록 경로를 추가합니다.
 sys.path.insert(0, RAG_APP_DIR)
